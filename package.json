@@ -1,0 +1,16 @@
+{
+  "name": "microverse-levelup",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "chai": "^4.3.6",
+    "chai-dom": "^1.11.0",
+    "css": "^3.0.0",
+    "jsdom": "^19.0.0",
+    "jsdom-global": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha -r jsdom-global/register tests.js"
+  }
+}
